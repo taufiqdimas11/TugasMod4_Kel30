@@ -72,27 +72,27 @@ function Content(props) {
         setImage(e.target.value);
     }
   return (
-      <div className = "card">
+      <div className = "card" >
             <div>
             <input type = "text"
                 placeholder = "jenis kendaraan"
-                size = "20"
+                size = "16"
                 value = {jenis}
                 onChange = {handleJenisChange}/>
                 </div>
-
-            <div>
-            <input type = "text"
-                placeholder = "warna"
-                size = "20"
-                value = {warna}
-                onChange = {handleWarnaChange}/>
-            </div>
             
             <div>
             <input type = "text"
+                placeholder = "warna"
+                size = "16"
+                value = {warna}
+                onChange = {handleWarnaChange}/>
+            </div>
+           
+            <div>
+            <input type = "text"
                 placeholder = "url gambar"
-                size = "20"
+                size = "16"
                 value = {imageSrc}
                 onChange = {handleImgChange}/>
             </div>         
@@ -102,7 +102,7 @@ function Content(props) {
             <h3> {"warna : " + warna} </h3>
 
             <img src = {imageSrc}
-                alt = "masukkan url gambar" width = "200" height = "200"/>
+                alt = "masukkan url gambar" width = "200" style={{justifyContent: "center"}}/>
     <div>
       <Text tema={props.tema} />
     </div>
