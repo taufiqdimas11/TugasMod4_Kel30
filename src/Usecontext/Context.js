@@ -1,30 +1,35 @@
-import React, { useState } from 'react';
-import { useContext, createContext } from "react";
-import "./Hooks.css";
-import APICall from './APICall';
+import { useContext, createContext, useState } from "react";
+import "./Context.css";
 
 const themes = {
   light: {
-    background: "#ffffcc",
+    text: "rgb(97, 218, 251)",
+    background: "#DEE4E7",
   },
   dark: {
-    background: "#001133",
+    text: "#DEE4E7",
+    background: "rgb(40, 44, 52)",
   },
 };
 
 const ThemeContext = createContext();
 
-function App(props) {
+export default function Context() {
   const [valueTheme, setValueTheme] = useState(themes.dark);
-  return (
 
+  return (
     <ThemeContext.Provider value={valueTheme}>
       <div
+        // tinggal uncoment
+        // cara 1
         className="contentWrapper"
         style={{ backgroundColor: valueTheme.background }}
+        // cara 2
+        //  className={`contentWrapper ${
+        //    valueTheme === themes.light ? "dark" : "light"
+        //  }`}
       >
         <Content tema={valueTheme} />
-        <div className='container'>
         <button
           className="Button"
           onClick={() =>
@@ -33,38 +38,17 @@ function App(props) {
             )
           }
         >
-          change
+          {valueTheme ? "hide" : "show"}
         </button>
-        </div>
       </div>
     </ThemeContext.Provider>
   );
 }
 
 function Content(props) {
-
-  const [show, setShow] = useState(false);
-
   return (
-    <div className="container">
-      <h1 style={{color:"#f8570c"}}>Selamat Datang!</h1>
-      <button className="Button" onClick={() => setShow(!show)}>
-        {show ? "hide" : "show"}
-      </button>
-      {show && (
-        <>
-          <div className='hooks-container'>
-            <APICall />
-          </div>
-        </>
-
-      )}
-
-      <div style={{ marginBlock: 30 }} />
-
-      <div>
-        <Text tema={props.tema} />
-      </div>
+    <div>
+      <Text tema={props.tema} />
     </div>
   );
 }
@@ -73,12 +57,14 @@ function Text(props) {
   const theme = useContext(ThemeContext);
   return (
     <p
+      // tinggal uncomment aja
+      // cara 1
       className="titleContext"
       style={{ color: theme.text }}
+       //cara 2
+      // className={`titleContext ${theme === themes.light ? "dark" : "light"}`}
     >
-      {theme.text}
+      context value {theme.text}
     </p>
   );
 }
-
-export default App;
