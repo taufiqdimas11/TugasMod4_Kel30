@@ -1,10 +1,14 @@
-header {
+
+
+header {    
   display: flex;
   background-color: #f8570c;
   justify-content: space-between;
   padding: 0 60px;
   align-items: center;
+  position: relative;
   height: 10vh;
+  width: 100%;
 }
 
 .title p {
@@ -59,7 +63,7 @@ img{
   text-align: center;
   cursor: pointer;
   min-width: 100px;
-  margin-bottom: 250px;
+  /* margin-bottom: 250px; */
 }
 
 ol li {

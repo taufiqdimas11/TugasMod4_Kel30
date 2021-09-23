@@ -1,21 +1,20 @@
 import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-
-import Usestate from "./Hooks/Hooks";
+import { BrowserRouter } from "react-router-dom";
+import Hooks from "./Hooks/Hooks";
 
 
 export default function App() {
   return (
     <BrowserRouter>
-      <header>
-        <div className="title">
-          <p>Tugas Modul 4 Kelompok 30</p>
-        </div>
-      </header>
-      <Switch>
-        <Route path="/" exact component={Usestate} />
-
-      </Switch>
+      <>
+        <header>
+          <div className="title">
+            <p>Tugas Modul 5 Kelompok 30</p>
+          </div>
+        </header>
+        
+        <Hooks />
+      </>
     </BrowserRouter>
   );
 }

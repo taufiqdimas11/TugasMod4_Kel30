@@ -1,0 +1,39 @@
+ {
+     "data":[
+    {
+      "merk": "ADIDAS",
+      "nama": "Adidas X Ghosted.3",
+      "gambar": "/adidas1.jfif",
+      "harga": "Rp1.200.000"
+    },
+    {
+        "merk": "ADIDAS",
+        "nama": "Adidas Nemeziz.3",
+        "gambar": "/adidas2.png",
+        "harga": "Rp1.200.000"
+      },
+      {
+        "merk": "ADIDAS",
+        "nama": "Adidas X 19.4",
+        "gambar": "/adidas3.jpg",
+        "harga": "Rp800.000"
+      },
+      {
+        "merk": "NIKE",
+        "nama": "Nike Tiempo Legend 8",
+        "gambar": "/nike1.jpg",
+        "harga": "Rp999.000"
+      },
+      {
+        "merk": "PUMA",
+        "nama": "Puma ULTRA 4.1 IT ",
+        "gambar": "/puma1.jfif",
+        "harga": "Rp799.000"
+      },
+      {
+        "merk": "PUMA",
+        "nama": "Puma ULTRA 4.2 IT",
+        "gambar": "/puma2.jpg",
+        "harga": "Rp799.000"
+      }
+  ] }
