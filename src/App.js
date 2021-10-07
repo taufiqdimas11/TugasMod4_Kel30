@@ -9,7 +9,7 @@ export default function App() {
       <>
         <header>
           <div className="title">
-            <p>Tugas Modul 5 Kelompok 30</p>
+            <p>Tugas Akhir Praktikum RPLBK Kelompok 30</p>
           </div>
         </header>
         

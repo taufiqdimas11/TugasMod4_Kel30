@@ -1,14 +1,13 @@
 
-
 header {    
   display: flex;
-  background-color: #f8570c;
+  background-color: #00fa9a;
   justify-content: space-between;
   padding: 0 60px;
   align-items: center;
   position: relative;
   height: 10vh;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .title p {
@@ -54,7 +53,7 @@ img{
 }
 
 .Button {
-  background-color: #f8570c;
+  background-color: #00fa9a;
   color: rgb(40, 44, 52);
   font-size: 18px;
   padding: 15px;

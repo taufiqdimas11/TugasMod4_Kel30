@@ -1,0 +1,35 @@
+.modal {
+    font-size: 15px;
+    background-color: #00fa9a;
+    border: 2px solid rgb(40, 44, 52);
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .modal > .header {
+    width: 100%;
+    /* border-bottom: 2px solid rgb(12, 11, 11); */
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 95%;
+    padding: 10px 5px;
+    text-align: justify;
+  }
+  .modal > .actions {
+    margin: auto;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  button{
+    background-color: #00fa9a;
+    color: rgb(40, 44, 52);
+    font-weight: bold;
+    border-radius: 5px;
+  }

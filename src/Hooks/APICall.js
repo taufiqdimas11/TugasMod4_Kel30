@@ -7,6 +7,9 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 //import AppBar from "@material-ui/core/AppBar";
+import Popup from "reactjs-popup";
+import {Content} from "./content.js";
+import "./content.css";
 
 export default class APICall extends React.Component {
     constructor(props) {
@@ -46,19 +49,22 @@ export default class APICall extends React.Component {
         return (
 
             <div>
-                <Grid container md={11} spacing={4} style={{ marginTop: "50px", marginLeft: "50px" }}>
+                <Grid container md={11} spacing={4} style={{ marginTop: "50px", marginLeft: "50px"}}>
 
                     {this.state.tekkom.map((results, index) => {
                         return (
 
                             <Grid item key={results.name} md={3}>
                                 <CardActionArea onClick={() => this.handleButton(results.harga)}>
-                                    <CardContent style={{ backgroundColor: '#fff' }}>
+                                    <CardContent style={{ backgroundColor: '#ffff', borderRadius: "10px"}}>
                                         <Typography><img src={results.gambar} alt='foto sepatu' style={{width:150, height:150}}/></Typography>
-                                        <Typography>Brand : {results.merk}</Typography>
-                                        <Typography>Name : {results.nama}</Typography>
+                                        <Typography>Nama : {results.nama}</Typography>
+                                        <Typography>Asal : {results.asal}</Typography>
                                         {/* <Typography>Harga : {results.harga}</Typography> */}
-                                        
+                                        <Popup modal trigger={<button>Detil Makanan</button>}>
+                                        {close => <Content nama={results.nama} info={results.info} close={close} />}
+                                        {/* {results.harga} */}
+                                        </Popup>
                                     </CardContent>
                                 </CardActionArea>
                             </Grid>

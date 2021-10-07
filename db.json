@@ -1,39 +1,51 @@
  {
      "data":[
     {
-      "merk": "ADIDAS",
-      "nama": "Adidas X Ghosted.3",
-      "gambar": "/adidas1.jfif",
-      "harga": "Rp1.200.000"
+      "nama": "Rendang",
+      "asal": "Sumatra Barat",
+      "gambar": "/rendang.webp",
+      "info": "Dalam sebuah ulasan dari seorang sejarawan Universitas Andalas Padang, Gusti Anan, konon rendang diawali oleh kebiasaan masyarakat Minang bepergian lewat jalur air ke Selat Malaka hingga Singapura di sekitar abad 16. Perjalanan yang butuh waktu lama itu membuat para perantau harus menyiapkan makanan tahan lama karena tidak ada perkampungan yang bisa disinggahi sebelum sampai tujuan. Rendang sendiri disebut berasal dari kata merandang yang berarti memasak santan hingga kering secara perlahan. Hal inilah yang dianggap sebagai salah satu ciri khas yang sesuai untuk menjelaskan asal mula rendang. "
     },
     {
-        "merk": "ADIDAS",
-        "nama": "Adidas Nemeziz.3",
-        "gambar": "/adidas2.png",
-        "harga": "Rp1.200.000"
+        "nama": "Gudeg",
+        "asal": "DIY",
+        "gambar": "/gudeg.webp",
+        "info": "Makanan khas dari Yogyakarta ini konon dibuat pada saat Kerajaan Mataram Islam dibangun di Hutan Mentaok, Kotagede Yogyakarta sekitar tahun 1500-an. Saat itu, banyak pohon nangka, kelapa, dan melinjo yang ditebang. Karena banyak buahnya, membuat para pekerja berinisiatif membuat masakan dari hasil pepohonan itu. Saking banyaknya bahan, untuk mengolah harus diaduk dengan alat seperti dayung. Proses mengaduk ini—dalam bahasa Jawa disebut sebagai hangudeg—yang kemudian membuat masakan ini dikenal sebagai gudeg. Seiring perkembangan zaman, gudeg yang awalnya berkuah, kini juga diolah dan dibuat lebih kering sehingga tahan lebih lama."
       },
       {
-        "merk": "ADIDAS",
-        "nama": "Adidas X 19.4",
-        "gambar": "/adidas3.jpg",
-        "harga": "Rp800.000"
+        "nama": "Otak-otak",
+        "asal": "Kepulauan Riau",
+        "gambar": "/otak2.jpg",
+        "info": "Makanan khas Indonesia lainnya berasal dari daerah Kepulauan Riau, yaitu otak-otak. Makanan tradisional yang terbuat dari bahan utama seafood ini merupakan makanan hasil laut yang diolah dan dibungkus dengan daun pisang."
       },
       {
-        "merk": "NIKE",
-        "nama": "Nike Tiempo Legend 8",
-        "gambar": "/nike1.jpg",
-        "harga": "Rp999.000"
+        "nama": "Pempek",
+        "asal": "Sumatra Selatan",
+        "gambar": "/pempek.jpg",
+        "info": "Makanan khas daerah Sumatera Selatan ini sudah cukup terkenal dengan kelezatannya. Makanan ini terbuat dari olahan ikan yang dicampur dengan sagu. Dilengkapi dengan kuah cuko atau cuka yang begitu menggoda selera membuat banyak orang menggemarinya."
       },
       {
-        "merk": "PUMA",
-        "nama": "Puma ULTRA 4.1 IT ",
-        "gambar": "/puma1.jfif",
-        "harga": "Rp799.000"
+        "nama": "Mie Bangka",
+        "asal": "Bangka",
+        "gambar": "/mi bangka.jpg",
+        "info": "Makanan khas Indonesia dari daerah Bangka ini tentu saja berbahan dasar mi. Dihidangkan dengan mencampurkannya dengan kuah yang terbuat dari bumbu ikan, udang, atau cumi, dan ditaburi dengan kecambah serta mentimun."
       },
       {
-        "merk": "PUMA",
-        "nama": "Puma ULTRA 4.2 IT",
-        "gambar": "/puma2.jpg",
-        "harga": "Rp799.000"
+        "nama": "Kaledo",
+        "asal": "Sulawesi",
+        "gambar": "/kaledo.jpg",
+        "info": "kaledo merupakan salah satu makanan khas daerah Sulawesi Tengah yang bisa kamu coba. Kaledo atau kaki lembu Donggala adalah makanan yang mirip seperti sop buntut, dan disajikan bukan dengan nasi melainkan dengan ubi. Namun, menurut beberapa orang lainnya, kaledo berasal dari bahasa Kaili yang merupakan bahasa penduduk palu. Ka artinya keras dan Ledo artinya tidak."
+      },
+      {
+        "nama": "Papeda",
+        "asal": "Papua",
+        "gambar": "/papeda.jpg",
+        "info": "Papeda adalah makanan khas Indonesia dari Papua yang terbuat dari sagu. Papeda harus dimasak selama beberapa menit sampai tekstur makanan berubah menjadi bubur. Bubur putih dengan tekstur lengket seperti itu terasa hambar. Sebagai pelengkap, makanan khas daerah Papua ini diberi ikan kuah pedas dan sayur-sayuran."
+      },
+      {
+        "nama": "Kepiting Soka",
+        "asal": "Kalimantan Utara",
+        "gambar": "/kepiting soka.jpg",
+        "info": "Kepiting soka merupakan makanan khas daerah Kalimantan Utara. Ya, kamu bisa memakan semua bagian kepiting ini hingga cangkangnya. Karena keseluruhan dari kepiting soka ini begitu lunak."
       }
   ] }

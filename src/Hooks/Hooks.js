@@ -17,7 +17,6 @@ const ThemeContext = createContext();
 function App(props) {
   const [valueTheme, setValueTheme] = useState(themes.dark);
   return (
-
     <ThemeContext.Provider value={valueTheme}>
       <div
         className="contentWrapper"
@@ -33,7 +32,7 @@ function App(props) {
             )
           }
         >
-          change
+          Change Theme
         </button>
         </div>
       </div>
@@ -47,10 +46,11 @@ function Content(props) {
 
   return (
     <div className="container">
-      <h1 style={{color:"#f8570c"}}>Selamat Datang!</h1>
+      <h1 style={{color:"#00fa9a", whiteSpace:"pre-line", textAlign:"center"}}>Kuliner Nusantara {"\n"} Menampilkan Kuliner Dari Penjuru Indonesia</h1>
       <button className="Button" onClick={() => setShow(!show)}>
-        {show ? "hide" : "show"}
+        {show ? "Hide List" : "Show List"}
       </button>
+      
       {show && (
         <>
           <div className='hooks-container'>
