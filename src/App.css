@@ -65,6 +65,23 @@ img{
   /* margin-bottom: 250px; */
 }
 
+.Buttonn {
+  background-color: #00fa9a;
+
+  font-size: 18px;
+  padding: 15px;
+  font-weight: bold;
+
+  text-align: center;
+  cursor: pointer;
+  min-width: 100px;
+  /* margin-bottom: 250px; */
+  margin-left: 1250px;
+  margin-top: -590px;
+  z-index: 10;
+  position:fixed ;
+}
+
 ol li {
   color: white;
 }

@@ -18,7 +18,7 @@ function App(props) {
   const [valueTheme, setValueTheme] = useState(themes.dark);
 
   useEffect (() =>{
-    console.log('ubah')
+    console.log('tema telah diubah')
   },[valueTheme]
   )
 
@@ -31,7 +31,7 @@ function App(props) {
         <Content tema={valueTheme} />
         <div className='container'>
         <button
-          className="Button"
+          className="Buttonn"
           onClick={() =>
             setValueTheme(
               valueTheme === themes.light ? themes.dark : themes.light
