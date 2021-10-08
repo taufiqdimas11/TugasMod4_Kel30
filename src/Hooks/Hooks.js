@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useContext, createContext } from "react";
 import "./Hooks.css";
 import APICall from './APICall';
@@ -16,6 +16,12 @@ const ThemeContext = createContext();
 
 function App(props) {
   const [valueTheme, setValueTheme] = useState(themes.dark);
+
+  useEffect (() =>{
+    console.log('ubah')
+  },[valueTheme]
+  )
+
   return (
     <ThemeContext.Provider value={valueTheme}>
       <div
@@ -80,5 +86,7 @@ function Text(props) {
     </p>
   );
 }
+
+
 
 export default App;

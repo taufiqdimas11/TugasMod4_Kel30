@@ -12,7 +12,6 @@ export default function App() {
             <p>Tugas Akhir Praktikum RPLBK Kelompok 30</p>
           </div>
         </header>
-        
         <Hooks />
       </>
     </BrowserRouter>
