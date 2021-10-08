@@ -75,7 +75,7 @@ function Content(props) {
   );
 }
 
-function Text(props) {
+function Text() {
   const theme = useContext(ThemeContext);
   return (
     <p
