@@ -54,19 +54,18 @@ export default class APICall extends React.Component {
                     {this.state.tekkom.map((results, index) => {
                         return (
 
-                            <Grid item key={results.name} md={3}>
-                                <CardActionArea onClick={() => this.handleButton(results.harga)}>
+                            <Grid item key={results.nama} md={3}>
+                                {/* <CardActionArea onClick={() => this.handleButton(results.harga)}> */}
                                     <CardContent style={{ backgroundColor: '#ffff', borderRadius: "10px"}}>
                                         <Typography><img src={results.gambar} alt='foto sepatu' style={{width:150, height:150}}/></Typography>
                                         <Typography>Nama : {results.nama}</Typography>
                                         <Typography>Asal : {results.asal}</Typography>
-                                        {/* <Typography>Harga : {results.harga}</Typography> */}
                                         <Popup modal trigger={<button>Detil Makanan</button>}>
                                         {close => <Content nama={results.nama} info={results.info} close={close} />}
-                                        {/* {results.harga} */}
                                         </Popup>
+                                        <Typography><a href={results.url}><button>Lokasi</button></a></Typography>
                                     </CardContent>
-                                </CardActionArea>
+                                {/* </CardActionArea> */}
                             </Grid>
                         );
                     })}
