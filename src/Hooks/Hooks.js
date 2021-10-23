@@ -31,7 +31,7 @@ function App(props) {
         <Content tema={valueTheme} />
         <div className='container'>
         <button
-          className="Buttonn"
+          className="Button"
           onClick={() =>
             setValueTheme(
               valueTheme === themes.light ? themes.dark : themes.light
